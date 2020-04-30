@@ -1,0 +1,32 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Console {
+    public static void main(String[] args) {
+
+    }
+
+    public static class ConsoleReader {
+        static Scanner sc = new Scanner(System.in);
+
+        public static String readString() {
+            return sc.nextLine();
+        }
+
+        public static int readInt() {
+            return sc.nextInt();
+        }
+
+        public static double readDouble() {
+            return sc.nextDouble();
+        }
+
+        public static void readLn() {
+            sc.nextLine();
+        }
+    }
+}
+
+
+
